@@ -1,14 +1,13 @@
 # BookNook – A Small Online Library
 
-**Live site:** _add your deployed URL here (e.g. https://booknook.vercel.app)_
-**Server repo:** _add link_
+Live site:https://a08-booknook-project-client.vercel.app
 
-> Add a book, borrow a book, return a book.
+ Add a book, borrow a book, return a book.
 
 BookNook is a small online library built with Next.js (App Router), BetterAuth, MongoDB and an Express API. Readers can browse every book, add their own, borrow a title for seven days and return it when they are done.
 
 ## Features
-- **Email and Google login** with BetterAuth + MongoDB adapter, password rules (uppercase, lowercase, 6+ characters) and a redirect back to the page you came from after login
+Email and Google login with BetterAuth + MongoDB adapter, password rules (uppercase, lowercase, 6+ characters) and a redirect back to the page you came from after login
 - **Private routes that survive a reload**: a logged in user is never bounced to Login while the session is restored
 - **Full book CRUD**: add with imgbb image upload, edit with a prefilled form, delete with a confirm modal
 - **Borrow system** with available copies tracked by `$inc`, a "Not Available" state at 0 copies and a no-double-borrow rule
